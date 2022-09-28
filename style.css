@@ -51,7 +51,21 @@ section {
     background-size: cover;
     background-position: center;
     justify-content: right;
-    padding-right: 15%;
+    padding-right: 5%;
+    padding-top:130px;
+}
+
+#homeText{
+    width:30%;
+}
+
+#homeH1{
+    font-size: 600%;
+}
+
+#homeP{
+    font-size: 120%;
+    padding-top:25px
 }
 
 .two {
