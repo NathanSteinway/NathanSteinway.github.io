@@ -41,16 +41,19 @@ section {
 }
 
 .container {
+    height: 100vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
 }
 
 .one {
     background-image: url("/imgs/HEK_2024.jpg");
     background-size: cover;
     background-position: center;
+    justify-content: right;
+    padding-right: 15%;
 }
+
 .two {
     background: rgb(211, 79, 79);
 }
