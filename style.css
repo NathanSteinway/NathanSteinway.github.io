@@ -54,6 +54,7 @@
     height:3px;
     width: 100%;
     background-color: white;
+    border-radius: 10px;
  }
 
 section {
@@ -104,19 +105,21 @@ section {
 }
 
 @media (max-width: 600px) {
-    .burger-button {
-        display: flex;
-    }
 
     /* hides the links when the hamburger appears */
 
     .navbar-links{
         width: 100%;
-        /* display: none; */
+        display: none;
     }
 
     .navbar {
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .burger-button {
+        display: flex;
     }
 
     .navbar-links ul {
