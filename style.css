@@ -41,6 +41,21 @@
     background-color: #555;
  }
 
+ .burger-button{
+    position:absolute;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+ }
+
+ .burger-button .burgerbar {
+    height:3px;
+    width: 100%;
+    background-color: white;
+ }
+
 section {
     height: 100vh;
     display: flex;
@@ -86,4 +101,10 @@ section {
 }
 .four {
     background: lightsalmon;
+}
+
+@media (max-width: 600px) {
+    .toggle-button {
+        display: flex;
+    }
 }
