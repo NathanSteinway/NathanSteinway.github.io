@@ -10,21 +10,22 @@ body {
 
  .navbar {
     display: flex;
-    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color:#333;
     color:white;
  }
 
- .navbar-links{
-    height: 100%;
- }
+ .myName {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
 
  .navbar-links ul {
-    display: flex;
     margin: 0;
     padding: 0;
+    display: flex;
+    background-color:#333;
     
  }
 
@@ -33,10 +34,11 @@ body {
  }
 
  .navbar-links li a {
-    display: block;
+    
     text-decoration: none;
     color: white;
     padding: 1rem;
+    display: block;
     
  }
 
@@ -110,7 +112,7 @@ section {
     background: lightsalmon;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
 
     .navbar {
         flex-direction: column;
@@ -122,7 +124,7 @@ section {
     }
 
     .navbar-links {
-        /* display: none; */
+        display: none;
         width: 100%;
     }
 
