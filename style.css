@@ -81,30 +81,28 @@ section {
     overflow-y: scroll;
 }
 
-#homeText{
-    width:30%;
-}
-
-#homeH1{
-    font-size: 600%;
-}
-
-#homeP{
-    font-size: 120%;
-    padding-top:25px;
-}
-
 .one {
     height: 95vh;
     background-image: url('./imgs/HEK_2024_resize.jpg');
     background-size:cover;
-    background-repeat: no-repeat;
     background-position: center;
+    justify-content: right;
 }
 
-.oneBgImg {
+.homeText {
+    color: white;
+    text-shadow: 2px 2px #333;
+    margin: 5%;
+    width: 25vw;
+}
 
+.homeH1 {
+    font-size: 5vw;
+    padding-top: 23%;
+}
 
+.homeP {
+    font-size: 2vw;
 }
 
 .two {
