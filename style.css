@@ -106,8 +106,27 @@ section {
 }
 
 .two {
-    background-image: url('./imgs/wp9313972-brush-stroke-wallpapers.jpg');
-    background-position: center;
+    background-image: url('./imgs/HEK_1802.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    justify-content: left;
+    
+}
+
+.twoText {
+    color: white;
+    text-shadow: 2px 2px #333;
+    margin-bottom: 25%;
+    margin-left: 20%;
+}
+
+.twoH1 {
+    font-size: 5vw;
+}
+
+.twoP {
+    font-size: 2vw;
 }
 .three {
     background-image: url('./imgs/wp9314017-brush-stroke-wallpapers.jpg');
