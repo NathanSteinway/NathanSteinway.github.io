@@ -13,27 +13,29 @@
 
     <body>
 
-            <nav class="navbar">
-                <div class="myName">Nathan Steinway</div>
-                <a href="#" class="burger-button">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </a>
-    
-                <div class="navbar-links">
-                    <ul>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Work">Work</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        
+        <!-- The NAVBAR is here -->
+        <nav class="navbar">
+            <div class="myName">Nathan Steinway</div>
+            <a href="#" class="burger-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
 
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- This container serves every section of the website -->
         <div class="container">
             
+            <!-- Section 1! Home -->
             <section id='Home' class="one">
                 
 
@@ -44,17 +46,51 @@
 
             </section>
 
+            <!-- Section 2! About -->
+
             <section id='About' class="two">
+
                 <div class="twoText">
-                    <h1 class="twoH1">The Path</h1>
-                    <p class="twoP">(Education) - Coding Education - Aspirations</p>
+
+                        <h1 class="twoH1">The Path</h1>
+
+                        <div class="card-grid">
+                            <div class="card card-shadow" id="eduCard">
+                                <div class="card-header card-image">
+                                    <img src="./imgs/UNT.jpg" />
+                                </div>
+                                <div class="card-body">
+                                    I earned my degree in Education w/ ESL cert here.
+                                </div>
+                            </div>
+                            <div class="card card-shadow" id="smuCard">
+                                <div class="card-header card-image">
+                                    <img src="./imgs/SMU.png" />
+                                </div>
+                                <div class="card-body">
+                                    I learned full-stack web design w/ a focus on MERN here.
+                                </div>
+                            </div>
+                            <div class="card card-shadow" id="meCard">
+                                <div class="card-header card-image">
+                                    <img src="./imgs/nathabandjinwa.jpg" />
+                                </div>
+                                <div class="card-body">
+                                    Busting a gut with Jinwa as per usual.
+                                </div>
+                            </div>
+                        </div>
+
                 </div>
-                
+
             </section>
 
+            <!-- Section 3! Work -->
             <section id='Work' class="three">
                 <h1>Work</h1>
             </section>
+
+            <!-- Section 4! Contact -->
             <section id='Contact' class="four">
 
                 <div id='contact' class='contactBody'>
@@ -77,6 +113,8 @@
                     </form>
                 </div>
             </section>
+
+            
         </div>
         
     </body>
