@@ -82,8 +82,8 @@ section {
     position: relative;
     background-size:contain;
     background-repeat: no-repeat;
-    background-position: left;
-    justify-content: right;
+    background-position: right;
+    justify-content: left;
 }
 
 .homeText {
@@ -105,6 +105,7 @@ section {
 }
 
 .two {
+    height: 110vh;
     background-image: url('./imgs/HEK_1802.jpg');
     background-size: cover;
     background-repeat: no-repeat;
