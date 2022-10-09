@@ -75,23 +75,24 @@ section {
 
 .container {
     height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
 }
 
 .one {
-    height: 95vh;
     background-image: url('./imgs/HEK_2024_resize.jpg');
-    background-size:cover;
-    background-position: center;
+    position: relative;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left;
     justify-content: right;
 }
 
 .homeText {
+    height: 100vh;
+    width: 30vw;
     color: white;
+    background-color: rgba(108, 151, 194);
     text-shadow: 2px 2px #333;
-    margin: 5%;
-    width: 25vw;
+    text-align: center;
 }
 
 .homeH1 {
@@ -273,6 +274,28 @@ section {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .one {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .homeText {
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .homeH1 {
+        padding: 0;
+        font-size: 3rem;
+        text-shadow: 1px 1px #000000;
+    }
+
+    .homeP {
+        font-size: 2rem;
+        text-shadow: 1px 1px #000000;
     }
 
     #About {
