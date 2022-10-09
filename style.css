@@ -175,7 +175,9 @@ section {
 }
 
 .three {
-    background-image: url('./imgs/wp9314017-brush-stroke-wallpapers.jpg');
+    background-image: url('./imgs/HEK_2043.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .four {
     background-image: url('./imgs/wp9314048-brush-stroke-wallpapers.jpg');
@@ -315,6 +317,7 @@ section {
         font-size: 10vw;
     }
 
+
     .card { 
         width: 50vw;
         height: 30vh;
@@ -325,5 +328,9 @@ section {
         flex-direction: column;
         align-items: center;
         padding-left: 0;
+    }
+
+    .three {
+        background-position-x: 35%;
     }
 }
