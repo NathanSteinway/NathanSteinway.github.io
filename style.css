@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    scroll-behavior: smooth;
 
 }
 
@@ -72,7 +71,6 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-snap-align: center;
 }
 
 .container {
@@ -122,8 +120,10 @@ section {
 }
 
 .twoH1 {
-    padding-left: 20%;
+    margin-bottom: 1rem;
+    padding-left: 10%;
     font-size: 5vw;
+    text-shadow: 2px 1px black;
 }
 
 .twoP {
@@ -131,11 +131,12 @@ section {
 }
 
 .card {
-    background: #333;
+    background: #2D2920;
     padding: 1rem;
     border: 1px solid #777;
     border-radius: .25rem;
     width: 15vw;
+    height: 35vh;
 }
 
 .card-grid {
@@ -243,6 +244,7 @@ section {
 @media (max-width: 400px) {
 
     .navbar {
+        position: relative;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -271,5 +273,33 @@ section {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    #About {
+        height: 110vh;
+    }
+
+    .two {
+        background-size: cover;
+        background-position-x: 45%;
+    }
+
+    .twoH1 {
+        margin:auto;
+        padding-left: 0;
+        text-align:center;
+        font-size: 10vw;
+    }
+
+    .card { 
+        width: 50vw;
+        height: 30vh;
+        margin-top: 1rem;
+    }
+
+    .card-grid {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
     }
 }
