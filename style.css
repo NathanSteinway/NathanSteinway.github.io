@@ -78,7 +78,7 @@ section {
 }
 
 .one {
-    background-image: url('./imgs/HEK_2024_resize.jpg');
+    background-image: url('./imgs/BGs/HEK_2024.jpg');
     position: relative;
     background-size:contain;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ section {
 
 .two {
     height: 110vh;
-    background-image: url('./imgs/HEK_1802.jpg');
+    background-image: url('./imgs/BGs/HEK_1802.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -175,12 +175,37 @@ section {
 }
 
 .three {
-    background-image: url('./imgs/HEK_2043.jpg');
+    background-image: url('./imgs/BGs/HEK_2043.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+.skillsGrid {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 25%;
+
+
+}
+
+.skillsImgs{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    text-align: center;
+    gap: 1.25rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.skillsImgs .imgStyle {
+    width: 5rem;
+    margin:auto;
+}
+
 .four {
-    background-image: url('./imgs/wp9314048-brush-stroke-wallpapers.jpg');
+    background-image: url('./imgs/BGs/cool-background.png');
 }
 
 .contactBody {
