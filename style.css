@@ -412,4 +412,8 @@ section {
     .projImgs {
         padding-top: 0%;
     }
+
+    .four {
+        background-position-x: 45%;
+    }
 }
