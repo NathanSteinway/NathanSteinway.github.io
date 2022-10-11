@@ -247,14 +247,14 @@ section {
 }
 
 .four {
-    background-image: url('./imgs/BGs/cool-background.png');
+    background-image: url('./imgs/BGs/20200523_124302.jpg');
+    background-size: cover;
 }
 
 .contactBody {
     display: flex;
-    width: 100%;
-    height: 100vh;
-    justify-content: center;
+    background: linear-gradient(rgba(211, 198, 181, 0.7),rgba(211, 198, 181,0.7));
+    justify-content: left;
     align-items: center;
     padding: 1.25rem;
 }
@@ -279,29 +279,32 @@ section {
     line-height: 2.5rem;
     border-bottom-width: 4px;
     border-color: rgba(255, 255, 255);
+    color: white;
+    text-shadow: 1px 1px #000000;
+
 }
 
 .formBody .phName {
-    background-color: #261A2B;
+    background-color: #18230C;
     padding: 0.5rem;
 }
 
 .formBody .phEmail {
-    background-color: #261A2B;
+    background-color: #18230C;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
     padding: 0.5rem;
 }
 
 .formBody .phMessage {
-    background-color: #261A2B;
+    background-color: #18230C;
     padding: 0.5rem;
 }
 
 .formBody .submitBtn {
     display: flex;
     display: inline-flex;
-    background-color: #261A2B;
+    background-color: #18230C;
     color: white;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
