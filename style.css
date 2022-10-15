@@ -1,11 +1,11 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    
 }
 
  .navbar {
@@ -73,10 +73,6 @@ section {
     align-items: center;
 }
 
-.container {
-    height: 100vh;
-}
-
 .one {
     background-image: url('./imgs/BGs/HEK_2024.jpg');
     position: relative;
@@ -111,7 +107,6 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     justify-content: left;
-    
 }
 
 .twoText {
@@ -399,16 +394,8 @@ section {
     }
 
 
-    .card { 
-        width: 50vw;
-        height: 30vh;
-        margin-top: 1rem;
-    }
-
-    .card-grid {
-        flex-direction: column;
-        align-items: center;
-        padding-left: 0;
+    .grid {
+        grid-gap: 3rem;
     }
 
     .three {
