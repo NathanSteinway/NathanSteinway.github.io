@@ -132,46 +132,46 @@ section {
     font-size: 2vw;
 }
 
-.card {
-    background: #2D2920;
-    padding: 1rem;
-    border: 1px solid #777;
-    border-radius: .25rem;
-    width: 15vw;
-    height: 35vh;
-}
-
 .card-grid {
     display: flex;
     padding-left: 5%;
     gap: 1%;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    align-items: flex-start;
+    align-items: start;
 }
 
-.card.card-shadow {
-    border: none;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .9);
-
+.card {
+    background: #2D2920;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.25s;
+    height: 16rem;
+    width: 15rem;
 }
+
+.card:hover {
+    transform: translateY(-2%);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
 .card-header {
     font-size: 1.5rem;
     margin-bottom: .5rem;
 }
 
-.card-header.card-image {
-    overflow: hidden;
-}
-
-.card-header.card-image > img {
+.card-image {
     display: block;
+    overflow: hidden;
     width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover; 
 }
 
-.card-body {
-    font-size: .9rem;
+.card-content {
+    font-size: 1rem;
+    padding-left: 1rem;
 }
 
 .three {
@@ -397,7 +397,6 @@ section {
         text-align:center;
         font-size: 10vw;
     }
-
 
     .card { 
         width: 50vw;
